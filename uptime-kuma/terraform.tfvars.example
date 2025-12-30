@@ -1,0 +1,13 @@
+aws_ak_id = "value"
+aws_sk_id = "value"
+
+pubkey_path = "~/.ssh/id_ecdsa.pub"
+
+region_name = "eu-west-3"
+
+vpc_ip_range              = "10.99.0.0/16"
+subnet_internal_ip_range  = "10.99.10.0/24"
+ec2_ip_private            = "10.99.10.12"
+
+allowed_mgmt_eip = [ "value" ]
+allowed_clients_eip = [ "value" ]
