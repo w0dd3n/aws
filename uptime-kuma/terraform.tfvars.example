@@ -11,3 +11,5 @@ ec2_ip_private            = "10.99.10.12"
 
 allowed_mgmt_eip = [ "value" ]
 allowed_clients_eip = [ "value" ]
+
+ssl_cert_path = "./certificate.pem"

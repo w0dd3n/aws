@@ -64,3 +64,10 @@ variable "allowed_clients_eip" {
   sensitive     = false
   nullable      = false
 }
+
+variable "ssl_cert_path" {
+  description = "Path to SSL/TLS certificate with private key (PEM format)"
+  type        = string
+  sensitive   = false
+  nullable    = false
+}
